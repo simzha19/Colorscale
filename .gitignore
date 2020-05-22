@@ -1,3 +1,6 @@
 *.png
 *.jpg
 *.jpeg
+!sample_image.jpeg
+!sample_image_greyscale.jpeg
+!sample_image_colorscale.jpeg

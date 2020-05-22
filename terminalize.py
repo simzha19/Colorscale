@@ -28,8 +28,8 @@ for entry in os.listdir(os.getcwd()):
                 pixels[i, j] = (int(red), int(green), int(blue))
         
         os.chdir("../Grayscale")
-        grayscale_image.save(str(entry)+ "_greyscale.png")
+        grayscale_image.save(str(entry)+ "_greyscale.jpeg")
         os.chdir("../Colorscale")
-        output_image.save(str(entry) + "_colorscale.png")
+        output_image.save(str(entry) + "_colorscale.jpeg")
                 
 print("--- %s seconds ---" % (time.time()-start_time))
